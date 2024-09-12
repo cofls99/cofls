@@ -53,8 +53,13 @@ dev_dependencies:
 
 # The following section is specific to Flutter packages.
 flutter:
+  uses-material-design: true
+
   assets:
-    - assets/  # 에셋 경로 추가
+    - assets/icons/Icon-192.png
+    - assets/icons/Icon-512.png
+    - assets/icons/Icon-maskable-192.png
+    - assets/icons/Icon-maskable-512.png
 
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
